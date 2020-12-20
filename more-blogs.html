@@ -41,6 +41,35 @@
 
 
 
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* Style the footer */
 .footer {
   background-color: #f1f1f1;
@@ -72,6 +101,7 @@
   <a href="more-blogs.html">More Blogs</a>
 </div>
 
+
 <br>
 <br>
 <br>
@@ -80,10 +110,16 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
+<div class="grid-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div>7</div>
+  <div>8</div>
+</div>
 <br>
 <br>
 <br>
@@ -95,7 +131,7 @@
 
 
 <div class="footer">
-  <p>© HISTORIC MONUMENTS TALKS 2020</p>
+  <p>© HISTORIC MONUMENTS TALKS 2020</p> 
 </div>
 
 
